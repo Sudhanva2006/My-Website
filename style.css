@@ -1,0 +1,88 @@
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #0f0f0f;
+  color: #e0e0e0;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(145deg, #141e30, #243b55);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00f0ff;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #00f0ff;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #00f0ff;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background-color: #00f0ff;
+  color: #000;
+}
+
+/* Projects Section */
+.projects {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #111;
+}
+
+.projects h2 {
+  color: #00f0ff;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #080808;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* Cursor Effect */
+.cursor {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #00f0ff;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transition: transform 0.15s ease;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
